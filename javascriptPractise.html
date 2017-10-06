@@ -1,0 +1,69 @@
+<! doctype html>
+<html>
+<head>
+<title>Javascript practise</title>
+<!-- In this example, a JavaScript function is placed in the <head> section of an HTML page.
+
+The function is invoked (called) when a button is clicked:-->
+<script>
+function myFunction(){
+document.getElementById('demo4').innerHTML="paragraph changed.";
+}
+</script>
+</head>
+<body>
+<h2>What can Javascript do?</h2>
+<p>javascript can change html attributes</p>
+<p id="demo">Javascript can change HTML content.</p>
+<!-- javascript example..JavaScript accepts both double and single quotes-->
+<button type="button" onclick='document.getElementById("demo").innerHTML="Hello Javascript!"'>Click Me!</button>
+
+<p>In this case javascript change the src attributes of an image.</p>
+<button type="button" onclick='document.getElementById("myImage").src="bulbon1.jpg"'>Turn on the light</button>
+<img id="myImage" src="bulboff.jpg" style="width:100px">
+
+<button type="button" onclick="document.getElementById('myImage').src='bulboff.jpg'">Turn off the light</button>
+
+<!-- javascript can change the html style css-->
+<p id="demo1">JavaScript can change the style of an HTML element.</p>
+<button type="button" onclick="document.getElementById('demo1').style.fontSize='35px'"> Click Me!</button>
+
+<p id="demo2">JavaScript can hide HTML elements.</p>
+
+<button type="button" onclick="document.getElementById('demo2').style.display='none'"> Click Me!</button>
+
+<p>JavaScript can show hidden HTML elements.</p>
+
+<p id="demo3" style="display:none">Hello JavaScript</p>
+
+<button type="button" onclick="document.getElementById('demo3').style.display='block'">Click Me</button>
+
+<!-- In this example, a JavaScript function is placed in the <head> section of an HTML page.
+
+The function is invoked (called) when a button is clicked:-->
+
+<h1>A Web Page</h1>
+<p id="demo4">A Paragraph</p>
+<button type="button" onclick="myFunction()">Try this</button>
+
+<!--In this example, a JavaScript function is placed in the <body> section of an HTML page.
+
+The function is invoked (called) when a button is clicked:-->
+
+<h1>A web page2</h1>
+
+<p id="demo5">A Paragraph2</p>
+<button type="button" onclick="myFunction2()">Try This</button>
+
+<script>
+
+function myFunction2(){
+document.getElementById('demo5').style.fontSize='40px';
+}
+</script>
+
+<p id="demo6">A Paragraph3</p>
+<button type="button" onclick="myFunction3()">Try This</button>
+<script type="text/javascript" src="js/myJavaScript.js"></script>
+</body>
+</html>

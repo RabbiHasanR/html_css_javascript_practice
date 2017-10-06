@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+<head>
+<title>Practise page 2</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+<!-- <form> element example-->
+<form method="post">
+First Name:<br>
+<input type="text" name="firstName" value="Rabbi">
+<br>
+Last Name:<br>
+<input type="text" name="lastName" value="Hasan">
+<br>
+Gender:<br>
+<input type="radio" name="gender" value="male" checked>Male<br>
+<input type="radio" name="gender" value="female">Female<br>
+<input type="radio" name="gender" value="other">Other<br>
+
+<!-- dropdown list -->
+
+<select name="cars">
+<option value="volvo">Volvo</option>
+<option value="saab">Saab</option>
+<option value="fiat">Fiat</option>
+<option value="audi">Audi</option>
+</select>
+<br><br>
+<input type="submit" name="submit" value="Submit">
+</form>
+
+<!-- grouping from data with <fieldset> element-->
+
+<form>
+<fieldset>
+<legend>Personal information:</legend>
+First Name:<br>
+<input type="text" name="firstName" value="Tuhin">
+<br>
+Last Name:<br>
+<input type="text" name="lastName" value="Ahmed">
+<br><br>
+
+<input type="submit" value="Submit">
+<br><br>
+<!-- The <textarea> element defines a multi-line input field -->
+<textarea name="massage" rows="20" col="30">
+Write the comment.
+</textarea>
+
+<button type="button" onclick="alert('Hello World')">On click</button>
+</fieldset>
+</form>
+
+<form action="new 1.html" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+<fieldset>
+<legend>Range</legend>
+0
+<input type="range" id="a" name="a" value="0">
+100+
+<input type="number" id="b" name="b" value="50">
+=
+<!--html5 element use <output> tag-->
+<output name="x" for="a b"></output>
+<br>
+<!-- checkbox example-->
+<input type="checkbox" name="vehicle1" value="bike">I have a bike<br>
+<input type="checkbox" name="vehicle2" value="car">I have a car 
+
+<!-- html5 input type example-->
+<!-- The <input type="color"> is used for input fields that should contain a color.-->
+Select yout favorite color:
+<input type="color" name="favcolor">
+<br>
+<!-- The <input type="date"> is used for input fields that should contain a date.-->
+
+Birthday:
+<input type="date" name="bday">
+<br>
+<!-- also can add restrictions dates-->
+Enter a date before 1980-01-01:
+<input type="date" name="bday" max="1979-12-31"><br>
+Enter a date after 2000-01-01:
+<input type="date" name="bday" min="2000-01-02"><br>
+<!-- The <input type="datetime-local"> specifies a date and time input field, with no time zone.-->
+Birthday (date and time):
+<input type="datetime-local" name="bdaytime"><br>
+<!--The <input type="email"> is used for input fields that should contain an e-mail address.-->
+E-mail:
+<input type="email" name="email"><br>
+
+Birthday (month and year):
+<input type="month" name="bdaymonth"><br>
+
+<!-- the <input type="number">defines a numeric input field-->
+Quantity (between 1 and 5):
+<input type="number" name="qunatity" min="1" max="10"><br>
+<!-- the <input type="tel"> is used for input fields that should contain a telephone number-->
+Telephone:
+<input type="tel" name="usertel"><br>
+<!-- the <input type="time" allows the user to select time(no time zone)-->
+Select a time:
+<input type="time" name="usr_time"><br>
+<!-- <input type="url" is used for input fields that should contain url address-->
+<input type="url" name="homepage"><br>
+<!-- the <input type="week" allows the user select a week and year-->
+Select a week:
+<input type="week" name="week_year">
+
+<!--The <input type="search"> is used for search fields (a search field behaves like a regular text field).-->
+Search:
+<input type="search" name="search">
+<br><br>
+
+<input type="submit">
+</fieldset>
+</form>
+<!-- Add font awesome icons -->
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+<a href="#" class="fa fa-pinterest"></a>
+<a href="#" class="fa fa-snapchat-ghost"></a>
+<a href="#" class="fa fa-skype"></a>
+<a href="#" class="fa fa-android"></a>
+<a href="#" class="fa fa-dribbble"></a>
+<a href="#" class="fa fa-vimeo"></a>
+<a href="#" class="fa fa-tumblr"></a>
+<a href="#" class="fa fa-vine"></a>
+<a href="#" class="fa fa-foursquare"></a>
+<a href="#" class="fa fa-stumbleupon"></a>
+<a href="#" class="fa fa-flickr"></a>
+<a href="#" class="fa fa-yahoo"></a>
+<a href="#" class="fa fa-reddit"></a>
+<a href="#" class="fa fa-rss"></a>
+</body>
+</html>

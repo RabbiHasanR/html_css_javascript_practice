@@ -1,0 +1,255 @@
+/* background image*/
+body {
+    /*background-color: powderblue;*/
+	background-image:url('sky1.jpg');
+}
+/* css fonts exmple */
+h1{
+	color:blue;
+	font-family:verdana;
+	font-size:300%;
+}
+p{
+	color:red;
+	font-family:courier;
+	font-size:160%;
+}
+
+/* css border example */
+p{
+	border:3px solid red;
+	}
+
+/* css padding */
+
+p{
+	padding:30px;
+}
+
+/* css margin */
+
+p{
+	margin:50px
+}
+
+/* css id attributes */
+#p01{
+	background-color:red;
+	border:3px solid black;
+	color:white;
+}
+
+/* css class attributes */
+h3.error{
+	color:green;
+}
+
+#link07{
+	color:green;
+	background-color:transparent;
+	text-decoration:none;
+}
+#link07:visited{
+	color:pink;
+	background-color:transparent;
+	text-decoration:none;
+}
+#link07:hover {
+	color:red;
+	background-color:transparent;
+	text-decoration:underline;
+}
+
+#link07:active{
+	color:yellow;
+	background-color:transparent;
+	text-decoration:underline;
+}
+
+/* table css */
+table{
+	font-family:arial,sans-serif;
+	border-collapse:collapse;
+	width:100%;
+}
+
+td,th{
+	border:1px solid #dddddd;
+	text-align:left;
+	padding:8px;
+}
+tr:nth-child(even){
+	background-color:#dddddd;
+}
+table#table2,th.th,td.td{
+	border:1px solid black;
+	padding:5px;
+}
+
+table#table2{
+	border-spacing:15px;
+}
+
+/* list css */
+ul{
+	list-style-type:disc;
+}
+/*ol{
+	list-style-type:circle;
+}*/
+/* list display horizontaly*/
+ul#ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:#333333;
+}
+li.li{
+	/* float:left display horizontaly*/
+	/*float:left;*/
+	/* display:inline display verticaly*/
+	display:inline;
+}
+
+li.li a.a{
+	display:block;
+	color:white;
+	text-align:center;
+	padding:16px;
+	text-decoration:none;
+}
+/* div element css */
+div{
+	background-color:black;
+	color:white;
+	padding:20px;
+}
+/* span element css */
+
+span{
+	color:red;
+}
+/* social media icon css */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+
+.fa-vine {
+  background: #00b489;
+  color: white;
+}
+
+.fa-foursquare {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-stumbleupon {
+  background: #eb4924;
+  color: white;
+}
+
+.fa-flickr {
+  background: #f40083;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
+
+
+
+
