@@ -1,3 +1,90 @@
 <! doctype html>
 <html>
+<head><title>Second practise page</title>
+<script src="myScript.js"></script>
+
+</head>
+<body>
+<p>JavaScript data type example boolean</p>
+<p id="dataType"></p>
+<button type="button"  onclick="dataType()">Click</button>
+
+<p id="dataType2"></p>
+<button type="button"  onclick="dataType2()">Click2</button>
+
+<p id="complexData"></p>
+<button type="button"  onclick="complextDataType()">Click3</button>
+
+<p id="function"></p>
+<button type="button"  onclick="multiple()">function</button>
+
+<p id="convater"></p>
+<button type="button"  onclick="convater()">convert</button>
+
+<p id="letExample"></p>
+<button type="button"  onclick="letExample()">convert</button>
+<p id="letExample"></p>
+<button type="button"  onclick="generateARandom()">Random in log</button>
+
+<p id="object"></p>
+<button type="button"  onclick="objectExample()">declear function into object</button>
+
+<!--
+In the example above, the JavaScript code changes the content of the element with id="demo".
+
+In the next example, the code changes the content of its own element (using this.innerHTML):
+-->
+<button onclick="this.innerHTML=Date()">the time is?</button>
+
+<p id="length"></p>
+<button type="button"  onclick="stringExample()">string</button>
+
+<p id="stringMethod"></p>
+<button type="button"  onclick="stringMethod()">stringMethod</button>
+
+<p id="number"></p>
+<button type="button"  onclick="numberExample()">number</button>
+
+<p id="numberMethod"></p>
+<p id="numberMethod1"></p>
+<p id="numberMethod2"></p>
+<p id="numberMethod3"></p>
+<p id="numberMethod4"></p>
+<p id="numberMethod5"></p>
+<p id="numberMethod6"></p>
+<p id="numberMethod7"></p>
+<button type="button"  onclick="numberMethod()">numberMethod</button>
+
+<!--form validation with javascript example-->
+
+<form name="myForm" onsubmit="return validateForm()" action="" method="post">
+Name: <input type="text" name="fname">
+<input type="submit" value="submit">
+</form>
+
+<!-- numeric number validation with javascript-->
+<input id="numb">
+<button type="button" onclick="myFunction()">submit</button>
+<p id="demo"></p>
+
+<!-- html form validation can be performed automaticaly by the browser
+if a form field is empty the required attribute prevents this form from being submitted -->
+
+<form method="post">
+<input type="text" name="fname" required>
+<input type="submit" value="submit">
+</form>
+<script src="myScript.js"></script>
+</body>
+<!-- constraint validation-->
+
+<p>Enter a number and click OK:</p>
+
+<input id="id1" type="number" min="100" max="300" required>
+<button onclick="constraintValidation()">OK</button>
+
+<p>if the number is less than 100 or greater than 300, an error message will be displayed.</p>
+
+<p id="demo1"></p>
+
 </html>

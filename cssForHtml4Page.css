@@ -1,0 +1,62 @@
+/*css for Html4 page*/
+#header,#footer{
+	background-color:black;
+	color:white;
+	padding:10px;
+}
+body{
+	font-family:Verdana,sans-serif;
+	font-size:0.9em;
+}
+#menu ul{
+	padding:0;
+}
+#menu ul li{
+	display:inline;
+	margin:5px;
+}
+#content{
+	background-color:lightgrey;
+	margin:5px;
+	padding:10px;
+}
+
+.article{
+	margin:5px;
+	padding:10px;
+	background-color:whte;
+}
+
+/*css for Html5 page*/
+body{
+	font-family:Verdana,sans-serif;
+	font-size:0.9em;
+}
+
+header,footer{
+	padding:10px;
+	color:white;
+	background-color:black;
+}
+
+section{
+	margin:5px;
+	padding:10px;
+	background-color:lightgrey;
+}
+
+article{
+	margin:5px;
+	padding:10px;
+	background-color:white;
+}
+nav ul{
+	padding:0;
+}
+nav ul li{
+	display:inline;
+	margin:5px;
+}
+div{
+	background-color:rad;
+}
